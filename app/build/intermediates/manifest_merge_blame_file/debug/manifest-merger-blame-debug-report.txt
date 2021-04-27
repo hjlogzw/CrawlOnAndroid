@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android_c"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:7:5-76
+12-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:8:5-79
+13-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:9:5-81
+14-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:10:5-80
+15-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:11:5-75
+16-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+17-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:12:5-14:47
+17-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:13:9-68
+18
+19    <application
+19-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:16:5-37:19
+20        android:name="com.chaquo.python.android.PyApplication"
+20-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:17:9-63
+21        android:allowBackup="true"
+21-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:20:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.1] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\0a7451646a62336d17f605c61557d39e\core-1.0.1\AndroidManifest.xml:22:18-86
+23        android:configChanges="keyboardHidden|orientation"
+23-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:21:9-59
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:19:9-43
+26        android:label="YX"
+26-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:18:9-27
+27        android:requestLegacyExternalStorage="true"
+27-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:22:9-52
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:24:9-54
+29        android:screenOrientation="portrait"
+29-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:23:9-45
+30        android:supportsRtl="true"
+30-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:25:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme"
+32-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:27:9-40
+33        android:usesCleartextTraffic="true" >
+33-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:26:9-44
+34        <activity android:name="com.example.android_c.WeiboPublishActivity" />
+34-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:28:9-67
+34-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:28:19-55
+35        <activity android:name="com.example.android_c.MailPublishActivity" />
+35-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:29:9-57
+35-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:29:19-54
+36        <activity android:name="com.example.android_c.MainActivity" >
+36-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:30:9-36:20
+36-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:30:19-47
+37            <intent-filter>
+37-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:31:13-35:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:32:17-69
+38-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:32:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:34:17-77
+40-->E:\codeTest\weibo_android_sdk\Android_C\app\src\main\AndroidManifest.xml:34:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:12:9-17:20
+44            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+44-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:13:13-70
+45            android:configChanges="keyboardHidden|orientation"
+45-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:14:13-63
+46            android:exported="false"
+46-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:15:13-37
+47            android:windowSoftInputMode="adjustResize" >
+47-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:16:13-55
+48        </activity>
+49        <activity
+49-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:18:9-28:20
+50            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+50-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:19:13-73
+51            android:configChanges="keyboardHidden|orientation"
+51-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:20:13-63
+52            android:launchMode="singleTask"
+52-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:21:13-44
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+53-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:22:13-72
+54            <intent-filter>
+54-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:23:13-27:29
+55                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+55-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:24:17-92
+55-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:24:25-89
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:26:17-76
+57-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:26:27-73
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:29:9-39:20
+61            android:name="com.sina.weibo.sdk.share.WbShareToStoryActivity"
+61-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:30:13-75
+62            android:configChanges="keyboardHidden|orientation"
+62-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:31:13-63
+63            android:launchMode="singleTask"
+63-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:32:13-44
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+64-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:33:13-72
+65            <intent-filter>
+65-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:34:13-38:29
+66                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY" />
+66-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:35:17-89
+66-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:35:25-86
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:26:17-76
+68-->[com.sina.weibo.sdk:core:4.1.0] C:\Users\AirForHj\.gradle\caches\transforms-2\files-2.1\5de3ee8e829eda531beb715fcadaa4d3\jetified-core-4.1.0-openDefaultRelease\AndroidManifest.xml:26:27-73
+69            </intent-filter>
+70        </activity>
+71    </application>
+72
+73</manifest>

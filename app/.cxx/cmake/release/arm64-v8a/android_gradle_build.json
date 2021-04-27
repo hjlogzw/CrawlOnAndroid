@@ -1,0 +1,64 @@
+{
+  "stringTable": {
+    "0": "E:/codeTest/weibo_android_sdk/Android_C/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_test_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\AndroidSdk\\ndk\\22.0.7026061\\build\\cmake\\android.toolchain.cmake",
+    "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\AndroidSdk\\ndk\\22.0.7026061\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-test-Release-arm64-v8a": {
+      "buildCommand": "D:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\" native-test",
+      "buildType": "release",
+      "toolchain": "1386454880",
+      "abi": "arm64-v8a",
+      "artifactName": "native-test",
+      "files": [
+        {
+          "src": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\native-test.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\cac.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\nsp_log.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\cac.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\nsp_log.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\libnative-test.so"
+    }
+  },
+  "toolchains": {
+    "1386454880": {
+      "cCompilerExecutable": "D:\\AndroidSdk\\ndk\\22.0.7026061\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\AndroidSdk\\ndk\\22.0.7026061\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

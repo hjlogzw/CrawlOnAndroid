@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\codeTest\weibo_android_sdk\Android_C\app\.cxx\cmake\debug\x86'
+ninja: no work to do.

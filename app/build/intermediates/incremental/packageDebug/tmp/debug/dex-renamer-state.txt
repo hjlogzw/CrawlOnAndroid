@@ -1,0 +1,4 @@
+#Tue Apr 27 15:55:12 CST 2021
+base.0=E\:\\codeTest\\weibo_android_sdk\\Android_C\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

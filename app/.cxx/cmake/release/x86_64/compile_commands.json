@@ -1,0 +1,19 @@
+[
+{
+  "directory": "E:/codeTest/weibo_android_sdk/Android_C/app/.cxx/cmake/release/x86_64",
+  "command": "D:\\AndroidSdk\\ndk\\22.0.7026061\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_test_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-test.dir\\native-test.cpp.o -c E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\native-test.cpp",
+  "file": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\native-test.cpp"
+},
+
+{
+  "directory": "E:/codeTest/weibo_android_sdk/Android_C/app/.cxx/cmake/release/x86_64",
+  "command": "D:\\AndroidSdk\\ndk\\22.0.7026061\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_test_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-test.dir\\cac.c.o   -c E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\cac.c",
+  "file": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\cac.c"
+},
+
+{
+  "directory": "E:/codeTest/weibo_android_sdk/Android_C/app/.cxx/cmake/release/x86_64",
+  "command": "D:\\AndroidSdk\\ndk\\22.0.7026061\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AndroidSdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_test_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\native-test.dir\\nsp_log.c.o   -c E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\nsp_log.c",
+  "file": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\nsp_log.c"
+}
+]

@@ -1,0 +1,5 @@
+# ninja log v5
+70	441	641111348	CMakeFiles/native-test.dir/nsp_log.c.o	a590e2cd744effd9
+1	580	641111348	CMakeFiles/native-test.dir/cac.c.o	d69e3f2342856866
+25	1573	641111349	CMakeFiles/native-test.dir/native-test.cpp.o	ef316d4561043818
+1576	1925	641111349	libnative-test.so	c6eb4eb44f5df22d

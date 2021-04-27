@@ -1,0 +1,11 @@
+# ninja log v5
+20	140	637252416	CMakeFiles/native-test.dir/nsp_log.c.o	db05ccb0beeed104
+7	203	637252416	CMakeFiles/native-test.dir/cac.c.o	666571ba8a72d575
+14	551	637252417	CMakeFiles/native-test.dir/native-test.cpp.o	8042bf6c7b27ac66
+1	558	637252417	CMakeFiles/native-lib.dir/native-lib.cpp.o	386b811a6434b2fc
+552	721	637252417	libnative-test.so	28723b6d7b134116
+558	721	637252417	libnative-lib.so	db86bf5709b887ae
+4	124	637756145	CMakeFiles/native-test.dir/nsp_log.c.o	db05ccb0beeed104
+10	178	637756145	CMakeFiles/native-test.dir/cac.c.o	666571ba8a72d575
+16	522	637756146	CMakeFiles/native-test.dir/native-test.cpp.o	8042bf6c7b27ac66
+522	680	637756146	libnative-test.so	28723b6d7b134116

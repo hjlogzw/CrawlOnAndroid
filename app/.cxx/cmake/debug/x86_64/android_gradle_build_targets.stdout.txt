@@ -1,0 +1,9 @@
+ninja: Entering directory `E:\codeTest\weibo_android_sdk\Android_C\app\.cxx\cmake\debug\x86_64'
+[1/4] Building C object CMakeFiles/native-test.dir/nsp_log.c.o
+[2/4] Building C object CMakeFiles/native-test.dir/cac.c.o
+[3/4] Building CXX object CMakeFiles/native-test.dir/native-test.cpp.o
+E:/codeTest/weibo_android_sdk/Android_C/app/src/main/cpp/native-test.cpp:22:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+1 warning generated.
+[4/4] Linking CXX shared library libnative-test.so

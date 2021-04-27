@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C",
+      "sdkFolder": "D:\\AndroidSdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app",
+      "makeFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\.cxx",
+      "cxxFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx",
+      "ndkFolder": "D:\\AndroidSdk\\ndk\\22.0.7026061",
+      "ndkVersion": "22.0.7026061",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\codeTest\\weibo_android_sdk\\Android_C\\app\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}
